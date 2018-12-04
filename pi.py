@@ -8,7 +8,7 @@ while True:
         pi += 4 / (2 * i + 1) 
     else:
         pi -= 4 / (2 * i + 1)
-    if(before - pi < delta and pi - before < delta):
+    if before - pi < delta and pi - before < delta:
         break
     i += 1
 print(pi)
