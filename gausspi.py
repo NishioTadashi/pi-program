@@ -11,7 +11,7 @@ while True:
 pi = sqrpi
 while True:
     before = pi
-    pi = pi - (pi * pi - sqrpi) / (2 * pi)
+    pi = (pi + sqrpi / pi) / 2    
     if pi - before < delta and before - pi < delta :
         break
 print(pi)    
